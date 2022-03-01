@@ -5,6 +5,15 @@ a {
 	text-decoration: none;
 }
 
+.fixed-bottom{
+	left: 1220px;
+	bottom: 20px;
+}
+
+.whatsapp{
+	display: none;
+}
+
 /*Estilo logo*/
 
 .tipografiaLogo{

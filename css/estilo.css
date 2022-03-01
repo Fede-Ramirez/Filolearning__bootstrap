@@ -1,0 +1,36 @@
+/*Estilos generales*/
+
+a {
+	color: blue;
+	text-decoration: none;
+}
+
+/*Estilo logo*/
+
+.tipografiaLogo{
+	font-family: "cormorant upright", Serif;
+	font-weight: bold;
+	font-size: 40px;
+	font-style: italic;
+	color: black;
+}
+
+/*Estilo INDEX*/
+
+.indexImg1{
+	background-image:url("../assets/img/foco_idea.jpg");
+	background-position: center;
+	background-repeat: no-repeat;
+	background-size: cover;
+	width: 100%;
+	height: 600px;
+}
+
+.indexImg2{
+    background-image: url("../assets/img/cuaderno.jpg");
+	width: 100%;
+	height: 700px;
+	background-position: top;
+	background-repeat: no-repeat;
+	background-size: cover;
+}	

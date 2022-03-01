@@ -10,6 +10,11 @@
 	sans-serif; 
 }
 
+.nav-link{
+	color: black;
+	font-weight: bold;
+}
+
 h1{
 	font-family: "libre baskerville", serif;
 	font-weight: bold;
@@ -28,6 +33,18 @@ a:hover{
 
 .centrar{
 	text-align: center;
+}
+
+.headerAndFooterBackground{
+	background-color: #ffffcc;
+}
+
+.viewsBackground{
+	background-color: #FDFCE5;
+}
+
+.viewContactoTexto{
+	margin-bottom: 0px;
 }
 
 /*Estilo logo*/
@@ -65,6 +82,10 @@ a:hover{
 
 /*Estilo INDEX*/
 
+.indexBackground{
+    background-color: #f2f2f2;
+}
+
 .section2__texto{
 	text-align: center;
 	font-size: 30px;
@@ -78,10 +99,6 @@ a:hover{
 	font-weight: bold;
 	font-size: 25px;
 	margin: 0px 0px 50px 0px;
-}
-
-.section2__iconos{
-    margin-bottom: 50px;
 }
 
 /*Estilo ACERCA DE MÍ*/
@@ -104,6 +121,7 @@ a:hover{
 	border-color: black;
 	border-style: solid;
 	border-width: 2px 0px 2px 0px;
+	margin-bottom: 0px;
 }
 
 /*Estilo SERVICIOS*/
@@ -123,10 +141,6 @@ a:hover{
 	font-size: 20px;
 	font-weight: bold;
 	margin: 75px 75px 0px 75px;
-}
-
-.iconos{
-	margin-bottom: 30px;
 }
 
 /*Estilo ASIGNATURAS*/

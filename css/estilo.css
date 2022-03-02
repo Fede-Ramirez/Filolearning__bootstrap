@@ -59,14 +59,6 @@ li:hover{
 
 /*Estilo logo*/
 
-.tipografiaLogo{
-	font-family: "cormorant upright", Serif;
-	font-weight: bold;
-	font-size: 40px;
-	font-style: italic;
-	color: black;
-}
-
 /*Estilo footer*/
 
 .mailLogo{
@@ -185,6 +177,14 @@ li:hover{
 @media only screen and (max-width: 768px){
 
 /*Estilos generales*/
+
+.tipografiaLogo{
+	font-family: "cormorant upright", Serif;
+	font-weight: bold;
+	font-size: 25px;
+	font-style: italic;
+	color: black;
+}
 
 .contacto__whatsapp{
 	display: flex;
@@ -325,6 +325,14 @@ li:hover{
 @media only screen and (min-width: 992px){
 
 /*Estilos generales*/
+
+.tipografiaLogo{
+	font-family: "cormorant upright", Serif;
+	font-weight: bold;
+	font-size: 40px;
+	font-style: italic;
+	color: black;
+}
 
 .fixed-bottom{
 	left: 1220px;

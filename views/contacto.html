@@ -28,22 +28,22 @@
                  <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
                    <span class="navbar-toggler-icon"></span>
                 </button>
-               <div class="collapse navbar-collapse d-flex justify-content-end" id="navbarNav">
-                 <ul class="navbar-nav">
+               <div class="collapse navbar-collapse" id="navbarNav">
+                 <ul class="navbar-nav nav nav-pills">
                    <li class="nav-item">
-                     <a class="nav-link" href="../index.html">INICIO</a>
+                     <a class="nav-link views" href="../index.html">INICIO</a>
                    </li>
                    <li class="nav-item">
-                     <a class="nav-link" href="acerca_de_mi.html">ACERCA DE MÍ</a>
+                     <a class="nav-link views" href="acerca_de_mi.html">ACERCA DE MÍ</a>
                    </li>
                    <li class="nav-item">
-                     <a class="nav-link" href="servicios.html">SERVICIOS</a>
+                     <a class="nav-link views" href="servicios.html">SERVICIOS</a>
                    </li>
                    <li class="nav-item">
-                     <a class="nav-link" href="asignaturas.html">ASIGNATURAS</a>
+                     <a class="nav-link views" href="asignaturas.html">ASIGNATURAS</a>
                    </li>
                    <li class="nav-item">
-                     <a class="nav-link active" aria-current="page" href="#">CONTACTO</a>
+                     <a class="nav-link active views nav__anchor" aria-current="page" href="#">CONTACTO</a>
                    </li>
                  </ul>
                </div>
@@ -55,28 +55,30 @@
 			<h1 class="centrar">Contáctame</h1>
 		</div>
 	</section>
-	<section class="col-12 viewsBackground">
-		<p class="viewContactoTexto">Si deseas realizarme una consulta o solicitar un servicio, completa el siguiente formulario.</p>
+	<section class="row viewsBackground">
+       <div class="col-12"> 
+		 <p class="viewContactoTexto">Si deseas realizarme una consulta o solicitar un servicio, completa el siguiente formulario.</p>
+       </div> 
 	</section>
 	<form class="row d-flex justify-content-center align-items-center viewsBackground">
 		<section class="col-lg-6 col-sm-12 col-12">
 			<div class="mb-3">
-               <label for="exampleFormControlInput1" class="form-label">Nombre</label>
+               <label for="exampleFormControlInput1" class="form-label labelName areaLabel">Nombre</label>
                <input type="text" class="form-control" id="exampleFormControlInput1">
             </div>
             <div class="mb-3">
-               <label for="exampleFormControlInput1" class="form-label">Apellido</label>
+               <label for="exampleFormControlInput1" class="form-label labelName">Apellido</label>
                <input type="text" class="form-control" id="exampleFormControlInput1">
             </div>
 			<div class="mb-3">
-               <label for="exampleFormControlInput1" class="form-label">Correo electrónico</label>
+               <label for="exampleFormControlInput1" class="form-label labelName">Correo electrónico</label>
                <input type="email" class="form-control" id="exampleFormControlInput1" placeholder="nombre@ejemplo.com">
             </div>
             <div class="mb-3">
-               <label for="exampleFormControlInput1" class="form-label">Asunto</label>
+               <label for="exampleFormControlInput1" class="form-label labelName">Asunto</label>
                <input type="text" class="form-control" id="exampleFormControlInput1">
             </div>
-            <label for="exampleFormControlInput1" class="form-label">Servicio</label>
+            <label for="exampleFormControlInput1" class="form-label labelName">Servicio</label>
                <select class="form-select" aria-label="Default select example">
                   <option selected>Elegí un servicio</option>
                   <option value="presencial individual">Presencial individual</option>
@@ -85,8 +87,8 @@
                   <option value="online individual">Online individual</option>
                   <option value="online grupal">Online grupal</option>
                </select>
-            <div class="mb-3">
-               <label for="exampleFormControlTextarea1" class="form-label">Mensaje</label>
+            <div class="mb-3 areaLabel">
+               <label for="exampleFormControlTextarea1" class="form-label labelName">Mensaje</label>
                <textarea class="form-control" id="exampleFormControlTextarea1" rows="3"></textarea>
             </div>
             <div class="form-check">
@@ -115,7 +117,7 @@
 		  <div>	
 			<h3 class="contacto__texto">Contacto</h3>
 		  </div> 	
-    	  <a href="https://wa.me/+541122857995" target="_blank" class="contacto__whatsapp fixed-bottom">
+    	  <a href="https://wa.me/+541122857995" target="_blank" class="contacto__whatsapp d-flex flex-row">
     	    <img src="../assets/img/whatsapp-logo.png" alt="logo whatsapp" class="whatsappLogo">
     	    <p class="whatsapp">WhatsApp</p>
     	  </a>

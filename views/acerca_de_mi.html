@@ -16,8 +16,9 @@
 	<!-- Linkear archivo externo CSS -->
 	<link rel="stylesheet" href="../css/estilo.css">
 </head>
-<body class="container-fluid">
-	<header class="row headerAndFooterBackground">
+<body>
+	<div class="container-fluid">
+	 <header class="row headerAndFooterBackground">
 			<div class="col-lg-12 col-sm-12 col-12">	
 		    <nav class="navbar navbar-expand-lg navbar navbar-light" style="background-color: #ffffcc;">
              <div class="container-fluid">
@@ -50,13 +51,15 @@
             </div>
         </nav>
 	</header>
-	<section class="row viewsBackground">
+ </div>
+ <main class="container-fluid viewsBackground"> 	
+	<section class="row">
 		<div class="col-12 d-flex flex-column justify-content-center align-items-center">
 		   <h1 class="centrar">Conóceme</h1>
      	   <img src="../assets/img/miimagen.png" alt="imagen Federico" class="main__imagen img-fluid border border-dark border border-4">
 		</div>
 	</section>
-	<section class="row viewsBackground">
+	<section class="row">
 		<div class="col-12">
 			<h2 class="edicionEncabezados">¿Quién soy?</h2>  
             <p class="edicionParrafos">
@@ -65,7 +68,7 @@
             </p>
 		</div>
 	</section>
-	<section class="row viewsBackground">
+	<section class="row">
 		<h2 class="edicionEncabezados">¿Como nació este sitio?</h2>
             <p class="edicionParrafos">
            	  Al finalizar mis estudios secundarios y al momento de iniciar la universidad decidí comenzar a dar clases particulares con el fin de poder empezar a ganar un poco de dinero y ayudar a otros a reforzar contenidos en asignaturas que estos requieran.
@@ -73,7 +76,7 @@
               Al tener mayor alcance decidí crear este sitio para poder ampliar mis servicios a una mayor cantidad de personas.
             </p>
 	</section>
-	<section class="row viewsBackground">
+	<section class="row">
 		<div class="col-12">
 			<h2 class="edicionEncabezados">¡Estoy para ayudarte!</h2>
         	<p class="edicionParrafos">
@@ -88,6 +91,8 @@
 			<h3 class="edicionFrase">¡Aprender requiere de constancia y dedicación, no dudes en contactarme e intentar!</h3>
 		</div>
 	</section>
+  </main>
+ <div class="container-fluid"> 
 	<footer class="row footerMobile headerAndFooterBackground">
 		<div class="col-lg-4 col-sm-12 col-12">
 			<a href="../index.html" class="logo__anchor d-flex flex-row align-items-end">
@@ -128,6 +133,7 @@
           </div> 
 		</div>
 	</footer>
+ </div> 	
 	<!-- Linkeo WOW JS -->
    <script src="../js/wow.min.js"></script>
    <script>

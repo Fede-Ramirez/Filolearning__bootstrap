@@ -16,7 +16,8 @@
 	<!-- Linkear archivo externo CSS -->
 	<link rel="stylesheet" href="../css/estilo.css">
 </head>
-<body class="container-fluid">
+<body>
+ <div class="container-fluid"> 	
 	<header class="row headerAndFooterBackground">
 			<div class="col-lg-12 col-sm-12 col-12">	
 		    <nav class="navbar navbar-expand-lg navbar navbar-light" style="background-color: #ffffcc;">
@@ -50,12 +51,14 @@
             </div>
         </nav>
 	</header>
-	<section class="row viewsBackground">
+ </div>
+ <main class="container-fluid viewsBackground"> 	
+	<section class="row">
 		<div class="col-12">
 			<h1 class="centrar">Mis servicios</h1>
 		</div>
 	</section>
-	<section class="row viewsBackground">
+	<section class="row">
 		<div class="col-lg-6 col-sm-12 col-12">
 		    <h2 class="edicionEncabezados">Presencial individual</h2>
      		<p class="edicionParrafos">Para solicitar este servicio deberás comunicarte conmigo para acordar un horario. Una vez arreglado deberas acercarte a mi domicilio para realizar la clase. En caso de que necesites varias clases podemos organizar un cronograma de clases y podrás abonarlas a un precio mucho más económico.</p>
@@ -64,7 +67,7 @@
 			<img src="../assets/img/educacion_presencial.jpg" alt="clases presenciales individuales" class="edicionImagenes img-fluid">
 		</div>
 	</section>
-	<section class="row d-flex seccion__presencialgrupal viewsBackground">
+	<section class="row d-flex seccion__presencialgrupal">
 		<div class="col-lg-6 col-sm-12 col-12">
 			<img src="../assets/img/presencial_grupal.jpg" alt="clases presenciales grupales" class="edicionImagenes img-fluid">
 		</div>
@@ -73,7 +76,7 @@
      		<p class="edicionParrafos">Como mencioné en <a href="acerca_de_mi.html">Acerca de Mí</a>, estudiar en grupo es un gran complemento al momento de cerrar ideas, pues es una actividad más dinámica. Hay promos interesantes que se pueden aprovechar al solicitar este servicio. A su vez, si se necesitan más clases podemos organizar un cronograma en el que se establezcan horarios definidos para llevar a cabo las clases durante un período de tiempo. </p>
 		</div>
 	</section>
-	<section class="row viewsBackground">
+	<section class="row">
 		<div class="col-lg-6 col-sm-12 col-12">
 			<h2 class="edicionEncabezados">Presencial a domicilio</h2>
 			<p class="edicionParrafos">En este servicio podrás solicitarme a mí que me acerque a tu domicilio o a un punto de encuentro de preferencia acordado entre los dos. Sin embargo, tené en cuenta que mi movilidad solamente abarca dos grandes partidos del sur de la provincia de Buenos Aires: Avellaneda y Quilmes. Te adjunto dos mapas para que puedas visualizarlos y considerá que los viáticos serán tenidos en cuenta en el precio del servicio.</p>
@@ -84,7 +87,7 @@
 			<img src="../assets/img/lapices_cuadernos.jpg" alt="educación a domicilio" class="edicionImagenes presencialdomImagen img-fluid">    
 		</div>
 	</section>
-	<section class="row seccion__onlineindividual viewsBackground">
+	<section class="row seccion__onlineindividual">
 		<div class="col-lg-6 col-sm-12 col-12">
 			<img src="../assets/img/educacion_online_dos.jpg" alt="clases online individuales" class="edicionImagenes img-fluid">
 		</div>
@@ -93,7 +96,7 @@
      	    <p class="edicionParrafos">Para solicitar este servicio deberás comunicarte conmigo para acordar un horario y realizar la clase vía Zoom o Google Meet. El pago es por adelantado y si necesitas varias clases podemos establecer horarios definidos semanales, lo cual te permitirá abonarlas a un precio más económico.</p>
 		</div>
 	</section>
-	<section class="row viewsBackground">
+	<section class="row">
 		<div class="col-lg-6 col-sm-12 col-12">
 			<h2 class="edicionEncabezados">Online grupal</h2>
         	<p class="edicionParrafos">En este servicio vos y más personas que necesiten reforzar contenidos podrán solicitar clases online vía Zoom o Google Meet. Como en el servicio presencial, el servicio grupal supone promos con interesantes descuentos. En caso de necesitar varias clases, podemos arreglar un cronograma de clases. Tené en cuenta que el pago se realiza por adelantado.</p>
@@ -102,12 +105,12 @@
 			 <img src="../assets/img/educacion_online.jpg" alt="clases online grupales" class="edicionImagenes img-fluid">
 		</div> 
 	</section>
-	<section class="row viewsBackground">
+	<section class="row">
 		<div class="col-12">
 			 <h3 class="pagos__encabezado">Métodos de pago</h3>
 		</div>
 	</section>
-	<section class="row iconos viewsBackground">
+	<section class="row iconos">
 		<div class="col-lg-4 col-sm-12 col-12 d-flex flex-column justify-content-center align-items-center wow animate__animated animate__bounceInUp">
 			<img src="../assets/img/efectivo.png" alt="efectivo" class="iconos__edicion img-fluid">
         	<h4 class="icono__palabra">Efectivo</h4>
@@ -121,11 +124,13 @@
         	<h4 class="icono__palabra">Mercado Pago</h4>
 		</div>
 	</section>
-	<section class="row viewsBackground">
+	<section class="row">
 		<div class="col-12 wow animate__animated animate__bounceInLeft oracionFinal">
 			 <p class="edicionFrase">Si deseas conocer los precios, por favor accede a la sección <a href="contacto.html">contacto</a> y comunícate conmigo</p>
 		</div>
 	</section>
+ </main>
+ <div class="container-fluid">	
 	<footer class="row footerMobile headerAndFooterBackground">
 		<div class="col-lg-4 col-sm-12 col-12">
 			<a href="../index.html" class="logo__anchor d-flex flex-row align-items-end">
@@ -166,6 +171,7 @@
           </div> 
 		</div>
 	</footer>
+ </div>	
 	<!-- Linkeo WOW JS -->
    <script src="../js/wow.min.js"></script>
    <script>

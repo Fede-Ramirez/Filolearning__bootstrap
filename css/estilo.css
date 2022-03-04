@@ -42,16 +42,12 @@ li{
 	text-align: center;
 }
 
-.headerAndFooterBackground{
+.headerfooter__background{
 	background-color: #ffffcc;
 }
 
-.viewsBackground{
+.views__background{
 	background-color: #FDFCE5;
-}
-
-.viewContactoTexto{
-	margin-bottom: 0px;
 }
 
 /*Estilo footer*/
@@ -79,8 +75,12 @@ li{
 
 /*Estilo INDEX*/
 
-.indexBackground{
+.index__background{
     background-color: #f2f2f2;
+}
+
+.section2__iconos{
+	margin-bottom: 40px;
 }
 
 .section2__texto{
@@ -201,6 +201,11 @@ li{
 	flex-direction: row;
 }
 
+.whatsappLogo{
+	width: 32px;
+	height: 32px;
+}
+
 .whatsapp{
 	margin: 5px 0px 0px 0px;
 	padding: 5px;
@@ -214,7 +219,7 @@ li{
 	flex-direction: column-reverse;
 }
 
-.footerSections{
+.footer__sections{
 	margin: 10px 0px;
 }
 
@@ -338,6 +343,7 @@ li{
 	flex-direction: column-reverse;
 }
 }
+
 /*Media querie desktop*/
 
 @media only screen and (min-width: 992px){
